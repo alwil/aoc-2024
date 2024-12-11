@@ -26,7 +26,8 @@ muls_do <- str_extract_all(text_d3,
   str_remove_all("^(mul)")
 
 
-# loop with a multiplier (mul_status) to 'swtich on' or 'switch off'calculation
+# loop with a multiplier (mul_status) to 'switch on' or 'switch off' calculation
+
 counter <- 0
 mul_status <- 1
 for (i in 1: length(muls_do)) {
